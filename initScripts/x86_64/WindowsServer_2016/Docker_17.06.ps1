@@ -28,6 +28,10 @@ $CONTAINER_BUILD_DIR = "$CONTAINER_BASE_DIR\build"
 $STATUS_DIR = "$BUILD_DIR\status"
 $SCRIPTS_DIR = "$BUILD_DIR\scripts"
 
+# For mounting execTemplates for dev
+$IMAGE_EXEC_TEMPLATES_DIR = "C:\Users\ContainerAdministrator\Shippable\reqProc\execTemplates"
+$HOST_EXEC_TEMPLATES_DIR="C:\Users\Administrator\Desktop\execTemplates"
+
 $REQPROC_MOUNTS = ""
 $REQPROC_ENVS = ""
 $REQPROC_OPTS = ""
