@@ -177,7 +177,7 @@ Function setup_mounts() {
     mkdir -p $BUILD_DIR
   }
 
-  $global:REQPROC_MOUNTS= " -v ${BASE_DIR}:${CONTAINER_BASE_DIR} "
+  $global:REQPROC_MOUNTS= " -v ${BASE_DIR}:${CONTAINER_BASE_DIR} -v ${HOST_EXEC_TEMPLATES_DIR}:${IMAGE_EXEC_TEMPLATES_DIR} "
 }
 
 Function setup_envs() {
